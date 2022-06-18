@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
   <!-- 상단바 -->
@@ -14,9 +15,9 @@
   </div>
   <!-- // 상단바 -->
   <!-- 프로필 -->
-  <div>
-    <img src="./img/profile.jpg" style="width: 60px;" alt="">
-    <h1>padak0813</h1>
+  <div id="profile">
+    <img src="./img/profile.jpg" style="width: 50px;" alt="">
+    <h2>padak0813</h2>
     <button>프로필 편집</button>  
   </div>
   <!-- 프로필 -->
@@ -34,7 +35,7 @@
   </div>
   <!-- // 소개글 -->
   <!-- 하이라이트  -->
-  <div>
+  <div class="highlight">
     <div>
       <img src="./img/highlight1.jpg" style="height: 35px" alt="">
     </div>
@@ -58,17 +59,22 @@
   <!-- // 아이콘 -->
   <!-- 게시물 썸네일 -->
   <div>
-    <img src="./img/thumbnails/h1 1.jpg" style="width: 32%" alt="">
-    <img src="./img/thumbnails/h1 2.jpg" style="width: 32%"  alt="">
-    <img src="./img/thumbnails/h1 3.jpg" style="width: 32%" alt="">
-    <img src="./img/thumbnails/h1 4.jpg" style="width: 32%" alt="">
-    <img src="./img/thumbnails/h1 5.jpg" style="width: 32%" alt="">
-    <img src="./img/thumbnails/h1 6.jpg" style="width: 32%" alt="">
-    <img src="./img/thumbnails/h1 7.jpg" style="width: 32%" alt="">
-    <img src="./img/thumbnails/h1 8.jpg" style="width: 32%" alt="">
-    <img src="./img/thumbnails/h1 9.jpg" style="width: 32%" salt="">
+    <div class="thumnail_grid">
+      <img src="./img/thumbnails/h1 1.jpg" class="thumnail"/>
+      <img src="./img/thumbnails/h1 2.jpg" class="thumnail"/>
+      <img src="./img/thumbnails/h1 3.jpg" class="thumnail"/>  
+    </div>
+    <div class="thumnail_grid">
+      <img src="./img/thumbnails/h1 4.jpg" class="thumnail"/>
+      <img src="./img/thumbnails/h1 5.jpg" class="thumnail"/>
+      <img src="./img/thumbnails/h1 6.jpg" class="thumnail"/>  
+    </div>
+    <div class="thumnail_grid">
+      <img src="./img/thumbnails/h1 7.jpg" class="thumnail"/>
+      <img src="./img/thumbnails/h1 8.jpg" class="thumnail"/>
+      <img src="./img/thumbnails/h1 9.jpg" class="thumnail"/>
+    </div>
   </div>
   <!-- //게시물 썸네일 -->
-
 </body>
 </html>
