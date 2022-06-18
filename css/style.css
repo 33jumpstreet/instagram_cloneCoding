@@ -1,4 +1,4 @@
-h2 {
+/* h2 {
   color: red;
 }
 
@@ -9,7 +9,7 @@ h2 {
 #profile {
   border: solid;
   border-color: blue;
-}
+} */
 
 /* 썸네일 게시판 */
 .thumnail_grid {
@@ -17,3 +17,22 @@ h2 {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.thumnail {
+  width: 100%;
+}
+
+/* 통계영역 */
+#stat_bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.stat {
+  text-align: center;
+}
